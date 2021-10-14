@@ -5,3 +5,16 @@
 .secondary-button {
     position: static;
 }
+
+.account-form {
+    justify-content: center;
+}
+
+.form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.account-container {
+    height: auto;
+}
