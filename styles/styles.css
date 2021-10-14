@@ -221,3 +221,48 @@ html {
     width: 40px;
     height: 40px;
 }
+
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px;
+    font-weight: bold;
+    font-size: var(--md);
+    height: 100vh;
+}
+
+.mobile-menu .categories-menu,
+.mobile-menu .personal-menu,
+.mobile-menu .signout-menu {
+    list-style: none;
+}
+
+.mobile-menu .categories-menu li,
+.mobile-menu .personal-menu li {
+margin-bottom: 24px;
+}
+
+.mobile-menu .categories-menu a,
+.mobile-menu .personal-menu a,
+.mobile-menu .signout-menu a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.mobile-menu .signout-menu .email {
+    font-size: var(--sm);
+    font-weight: 300;
+}
+
+.mobile-menu .categories-menu {
+    margin-bottom: -40px;
+    border-bottom: 1px solid var(--very-light-pink);
+
+}
+
+.mobile-menu .signout-menu .sign-out {
+    color: var(--hospital-green);
+    font-size: var(--sm);
+    font-weight: 300;
+}
