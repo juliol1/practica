@@ -63,3 +63,45 @@
     display: inline-block;
     font-size: var(--md);
 }
+
+
+.my-order {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cart-item {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    left: -52px;
+}
+
+.cart-item p:nth-child(3) {
+    position: relative;
+    right: -120px;
+}
+
+.cart-item figure img {
+    display: none;
+}
+
+.order-info {
+    background-color: transparent;
+    padding: 0;
+    display: relative;
+    margin-bottom: 0;
+}
+
+.cart-item span {
+    position: relative;
+    background-image: url('../icons/flechita.svg');
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 84px;
+}
