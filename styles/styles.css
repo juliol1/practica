@@ -176,6 +176,13 @@ html {
 .login-button a {
     color: var(--white);
     padding: 30px 120px;
+    text-decoration: none;
+}
+
+.signup-button a {
+    color: var(--hospital-green);
+    padding: 30px 116px;
+    text-decoration: none;
 }
 
 .value {
