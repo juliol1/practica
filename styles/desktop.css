@@ -152,3 +152,16 @@
 .mobile-menu {
     display: none;
 }
+
+.product-detail {
+    position: absolute;
+    right: 0;
+    max-width: 320px;
+}
+
+.product-detail img:nth-child(2) {
+    max-width: 320px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
