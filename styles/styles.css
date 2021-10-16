@@ -409,7 +409,7 @@ margin-bottom: 24px;
     border: 1px solid var(--white);
 }
 
-.navbar-left ul {
+/* .navbar-left ul {
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -419,7 +419,6 @@ margin-bottom: 24px;
     top: 0;
     gap: 30px;
     background-color: var(--white);
-    height: 100%;
     margin: 0;
     transform: translateX(-200px);
     transition: transform 0.5s ease;
@@ -435,9 +434,23 @@ margin-bottom: 24px;
 .menu:visited + .navbar-left ul {
     transform: translateX(0);
     transition: transform 0.5s ease;
+} */
+
+.navbar-left ul {
+    display: none;
 }
 
 .navbar-email {
     display: none;
 }
 
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    background-color: var(--white);
+    transform: translateX(-900px);
+}
+
+.navbar:active + .mobile-menu {
+    transform: translateX(0px);
+}
