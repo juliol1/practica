@@ -431,9 +431,8 @@ margin-bottom: 24px;
 }
 
 .menu:hover + .navbar-left ul,
-.menu:active + .navbar-left ul
-.navbar-left ul:hover,
-.navbar-left ul:active {
+.menu:active + .navbar-left ul,
+.menu:focus-within + .navbar-left ul {
     transform: translateX(0);
     transition: transform 0.5s ease;
 }
