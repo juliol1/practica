@@ -432,7 +432,8 @@ margin-bottom: 24px;
 
 .menu:hover + .navbar-left ul,
 .menu:active + .navbar-left ul
-.menu {
+.navbar-left ul:hover,
+.navbar-left ul:active {
     transform: translateX(0);
     transition: transform 0.5s ease;
 }
