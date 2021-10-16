@@ -451,6 +451,17 @@ margin-bottom: 24px;
     transform: translateX(-900px);
 }
 
-.navbar:active + .mobile-menu {
+.active {
     transform: translateX(0px);
+    transition: transform 0.5s ease;
+}
+
+.right {
+    position: absolute;
+    display: block;
+    transform: translateX(170px);
+    top: 20px;
+    background-color: var(--white);
+    padding-left: 30px;
+    padding-right: 30px;
 }

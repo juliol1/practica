@@ -10,9 +10,101 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">        
+    <script defer src="../js/toggle.js"></script>
     <title>YardSale Order</title>
 </head>
 <body>
+    <header>
+        <nav class="navbar">
+            <img src="../icons/icon_menu.svg" alt="icon_menu" class="menu" id="toggle">
+            <div class="navbar-left" id="navbar">
+                <img src="../logos/logo_yard_sale.svg" alt="logo yardsale" class="navbar-logo">
+                <ul id="menu-icon">
+                    <li>
+                        <a href="/html/home.html">All</a>
+                    </li>
+                    <li>
+                        <a href="/">Clothes</a>
+                    </li>
+                    <li>
+                        <a href="/">Electronics</a>
+                    </li>
+                    <li>
+                        <a href="/">Furniture</a>
+                    </li>
+                    <li>
+                        <a href="/">Toys</a>
+                    </li>
+                    <li>
+                        <a href="/">Other</a>
+                    </li>
+                    <li>
+                        <a href="/html/my_order.html">Orders</a>
+                    </li>
+                    <li>
+                        <a href="/html/my_account.html">Account</a>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="navbar-right">
+                <ul>
+                    <li class="navbar-email">example@email.com</li>
+                    <li class="navbar-shopping-cart">
+                        <img src="../icons/icon_shopping_cart.svg" alt="shopping cart">
+                        <div class="cart-items">2</div>
+                    </li>
+    
+                </ul>
+            </div>
+        </nav>
+
+        <div class="mobile-menu" id="mobile-menu">
+            <ul class="categories-menu">
+                <li>
+                    CATEGORIES
+                </li>
+                <li>
+                    <a href="/html/home.html">All</a>
+                </li>
+                <li>
+                    <a href="/">Clothes</a>
+                </li>
+                <li>
+                    <a href="/">Electronics</a>
+                </li>
+                <li>
+                    <a href="/">Furniture</a>
+                </li>
+                <li>
+                    <a href="/">Toys</a>
+                </li>
+                <li>
+                    <a href="/">Other</a>
+                </li>
+            </ul>
+    
+            <ul class="personal-menu">
+                <li>
+                    <a href="/html/my_order.html">My orders</a>
+                </li>
+                <li>
+                    <a href="/html/my_account.html">My account</a>
+                </li>
+            </ul>
+    
+            <ul class="signout-menu">
+                <li>
+                    <a class="email" href="/">example@email.com</a>
+                </li>
+                <li>
+                    <a class="sign-out" href="/">Sign out</a>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+    <main id="main">
     <section class="my-order">
         <div class="my-order-container">
             <h1 class="title order">My order</h1>
@@ -100,8 +192,7 @@
                 <span></span>
             </div>
         </div>
-
-
     </section>
+    </main>
 </body>
 </html>
