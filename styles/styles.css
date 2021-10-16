@@ -175,7 +175,7 @@ html {
 
 .login-button a {
     color: var(--white);
-    text-decoration: none;
+    padding: 30px 120px;
 }
 
 .value {
