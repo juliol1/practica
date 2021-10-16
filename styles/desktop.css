@@ -105,3 +105,42 @@
     background-repeat: no-repeat;
     left: 84px;
 }
+
+.menu {
+    display: none;
+}
+
+.navbar-left ul {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    transform: translateX(0);
+}
+
+.navbar-email {
+    display: flex;
+}
+
+.navbar-left > ul {
+    margin-left: 12px;
+}
+
+
+.navbar-left ul li a,
+.navbar-right ul li a {
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.navbar-left ul li a:hover,
+.navbar-right ul li a:hover {
+    border: 1px solid var(--hospital-green);
+}
+
+.navbar-right {
+    font-size: var(--sm);
+}
+
+.navbar-email {
+    margin-right: 12px;
+}
